@@ -10,7 +10,6 @@
 		<!--此文件路径是jenkins的路径，如果不用jenkins，则不能这样写，需要写项目的build路径，如： -->
 <!-- 		<jmeter.result.jtl.dir>${project.build.directory}\jmeter\results</jmeter.result.jtl.dir>
 		<jmeter.result.html.dir>${project.build.directory}\jmeter\html</jmeter.result.html.dir> -->
-		
 		<jmeter.result.jtl.dir>${env.WORKSPACE}/Report/${env.BUILD_ID}/jtl</jmeter.result.jtl.dir>
 		<jmeter.result.html.dir>${env.WORKSPACE}/Report/${env.BUILD_ID}/html</jmeter.result.html.dir>
 		
